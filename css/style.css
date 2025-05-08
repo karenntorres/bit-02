@@ -3,7 +3,7 @@
   position: fixed;
   height: 90px;
   width: 100%;
-  background-color: #3c4a33;
+  background-color: #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -159,8 +159,60 @@ background-color: #d55b4e;
   padding: 1rem;
 }
 
+/* BANNER FOOTER */
+.info-banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222; /* Fondo oscuro */
+  color: white;
+  padding: 1rem 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+  flex-wrap: wrap; /* Hace que se acomode en pantallas pequeñas */
+}
+
+.info-item {
+  flex: 1;
+  position: relative;
+  padding: 0.5rem 1rem;
+}
+
+.info-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 25%;
+  height: 50%;
+  width: 1px;
+  background-color: #444; /* Color de la línea divisoria */
+}
 
 /*Estilo -Explora */
+.titulo-con-lineas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.titulo-con-lineas .linea {
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.titulo-con-lineas h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+  margin: 0;
+  white-space: nowrap;
+}
+
 
 /* Estilo de los títulos */
 .header-mh{
@@ -197,6 +249,21 @@ background-color: #d55b4e;
   color: black;
 }
 
+
+/* FOOTER */
+.fixed-footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #0c0d0b;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  z-index: 1000;
+}
+
+/* === MEDIA QUERIES === */
+
 /* Responsive para móviles */
 @media (max-width: 768px) {
   .hero-column {
@@ -212,8 +279,6 @@ background-color: #d55b4e;
     padding: 0.5rem 1rem;
   }
 }
-
-/* === MEDIA QUERIES === */
 
 /* Extra Small (≤576px) */
 @media (max-width: 576px) {
@@ -315,38 +380,10 @@ background-color: #d55b4e;
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOTER */
-.fixed-footer {
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #3c4a33;
-  color: white;
-  text-align: center;
-  padding: 1rem 0;
-  z-index: 1000;
+/* Título del header */
+header h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
+
