@@ -1,4 +1,4 @@
-# BIT-2 — Sitio Web de Muebles
+# BIT-1 — Sitio Web de Muebles
 
 ## 🖥️ Descripción
 
