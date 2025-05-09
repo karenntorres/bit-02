@@ -271,9 +271,93 @@ header h1 {
   color: black;
 }
 
+/* Estilos base para el formulario */
+#formulario-contacto {
+  background-color: #f8f9fa;
+  padding: 40px 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+#formulario-contacto h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #333;
+  text-align: center;
+}
+
+#formulario-contacto .form-label {
+  font-weight: 500;
+  color: #444;
+}
+
+#formulario-contacto .form-control {
+  border-radius: 10px;
+  padding: 12px 15px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+#formulario-contacto .form-control:focus {
+  border-color: #000;
+  box-shadow: none;
+}
+
+#formulario-contacto button[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#formulario-contacto button[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Responsive - móviles pequeños (hasta 575px) */
+@media (max-width: 575px) {
+  #formulario-contacto {
+    padding: 25px 15px;
+  }
+
+  #formulario-contacto h2 {
+    font-size: 1.5rem;
+  }
+
+  #formulario-contacto button[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* Responsive - tablets (hasta 768px) */
+@media (max-width: 768px) {
+  #formulario-contacto {
+    padding: 30px 20px;
+  }
+
+  #formulario-contacto h2 {
+    font-size: 1.6rem;
+  }
+}
+
+/* Pantallas grandes (992px en adelante) */
+@media (min-width: 992px) {
+  #formulario-contacto {
+    padding: 50px;
+  }
+}
+
+
 /* FOOTER */
 .fixed-footer {
-  position: fixed;
+  position: static;
   bottom: 0;
   left: 0;
   width: 100%;

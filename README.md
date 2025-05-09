@@ -1,29 +1,50 @@
-Git, GitHub, HTML, CSS, Bootstrap, JavaScript
-Crear un sitio web
-Tema: Libre (Tema nuevo)
-Fecha de entrega: Lunes, 12 de Mayo de 2025
-Entrega:
+# BIT-2 — Sitio Web de Muebles
 
-En canal de Discord (2-entrega-calificable)
-Nombre Completo
-URL GitHub Pages
-URL GitHub Repositorio
-Entrega/Presentación del proyecto (tiempo límite: Máximo de 3 minutos)
-Criterios de aceptación:
+## 🖥️ Descripción
 
-Nombre del repositorio: "bit-1"
-README.md
-Título
-Descripción
-Autor
-Wireframe (Imagen en el README)
-Estructura de directorios y archivos (minúsculas, sin acentos, sin espacios)
-HTML (más de un documento, contenido original)
-CSS (Implementación archivo externo)
-Bootstrap (Implementación)
-JavaScript (Implementación archivo externo, modo estricto)
-Funcionamiento de un formulario (Evidencia de datos ingresados)
-Responsive
-575px/576px
-768px
-992px>=
+Este proyecto es un sitio web responsivo diseñado para una tienda de muebles. Incluye múltiples secciones como inicio, colección de productos y un formulario de contacto funcional. El sitio está construido con HTML, CSS, Bootstrap y JavaScript en un archivo externo.
+
+---
+
+## 👤 Autor
+
+Karenn Torres
+
+---
+
+## 🖼️ Wireframe
+
+> ![Wireframe del sitio web](ruta/a/tu/wireframe.png)
+
+---
+
+## 🧩 Tecnologías utilizadas
+
+- HTML
+- CSS (externo)
+- Bootstrap 5 (CDN)
+- JavaScript (archivo externo, modo estricto)
+- Git & GitHub para control de versiones
+
+---
+
+## 📄 Funcionalidades implementadas
+
+- Menú responsive con navegación.
+- Visualización de productos por categoría.
+- Formulario de contacto funcional:
+  - Muestra los datos ingresados en consola.
+  - Muestra los datos ingresados en pantalla.
+- Diseño responsive adaptado a:
+  - 575px / 576px (móviles)
+  - 768px (tabletas)
+  - ≥ 992px (pantallas grandes)
+
+---
+
+## 🌐 Enlaces de entrega
+
+- 🔗 GitHub Pages: [URL a tu sitio publicado]
+- 🔗 Repositorio GitHub: [URL a tu repositorio]
+
+---
