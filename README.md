@@ -14,8 +14,7 @@ Karenn Torres
 
 ## 🖼️ Wireframe
 
-> ![Wireframe del sitio web](ruta/a/tu/wireframe.png)
-
+IMAGEN DE FIGMA AÑADIDA
 ---
 
 ## 🧩 Tecnologías utilizadas
@@ -44,7 +43,5 @@ Karenn Torres
 
 ## 🌐 Enlaces de entrega
 
-- 🔗 GitHub Pages: [URL a tu sitio publicado]
-- 🔗 Repositorio GitHub: [URL a tu repositorio]
-
+ENTREGADO A TRAVÉS DE DISCORD.
 ---
