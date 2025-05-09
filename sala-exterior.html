@@ -1,26 +1,108 @@
-HTML COLLECTION
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!--FONT AWESOME LINK CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> <!--CDN BOOTSTRAP-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Colección - BIT-02</title>
+  <link rel="stylesheet" href="css/collection.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
-    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
-    <nav class="navbar">
-      <div class="navbar-left">
-          <i class="fa-solid fa-list"></i>
+
+<!-- NAVBAR (igual que en el home) -->
+<nav class="navbar">
+  <div class="navbar-left">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+  <div class="navbar-center">
+    <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
+  </div>
+  <div class="navbar-right">
+    <i class="fas fa-shopping-cart"></i>
+    <i class="fas fa-user-circle"></i>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </div>
+</nav>
+
+<!-- COLECCIÓN -->
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <!-- Filtros -->
+    <aside class="col-md-3">
+      <h4 class="mb-3">Filtrar por</h4>
+      <div class="mb-4">
+        <h5>Categoría</h5>
+        <ul class="list-unstyled">
+          <li><input type="checkbox" /> Salas</li>
+          <li><input type="checkbox" /> Comedores</li>
+          <li><input type="checkbox" /> Jardín</li>
+          <li><input type="checkbox" /> Oficina</li>
+        </ul>
       </div>
-      <div class="navbar-center">
-        <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
+      <div>
+        <h5>Precio</h5>
+        <input type="range" min="0" max="5000" step="100" />
+        <p class="price-label">Hasta $5.000.000</p>
+      </div>
+    </aside>
+
+    <!-- Productos -->
+    <section class="col-md-9">
+      <h2 class="text-center mb-4">Nuestra Colección</h2>
+      <div class="row gy-4">
+        <!-- Producto 1 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="assets/sala1.jpg" alt="Sala moderna" />
+            <div class="product-info">
+              <h5>Sala Moderna</h5>
+              <p>$3.200.000</p>
+              <a href="#" class="product-btn">Comprar</a>
+            </div>
+          </div>
         </div>
-      <div class="navbar-right">
-        <i class="fas fa-shopping-cart"></i>
-        <i class="fas fa-user-circle"></i>
+
+        <!-- Producto 2 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="assets/comedor1.jpg" alt="Comedor elegante" />
+            <div class="product-info">
+              <h5>Comedor Elegante</h5>
+              <p>$2.800.000</p>
+              <a href="#" class="product-btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Producto 3 -->
+        <div class="col-md-4">
+          <div class="product-card">
+            <img src="assets/jardin1.jpg" alt="Juego de jardín" />
+            <div class="product-info">
+              <h5>Juego de Jardín</h5>
+              <p>$1.900.000</p>
+              <a href="#" class="product-btn">Comprar</a>
+            </div>
+          </div>
+        </div>
+        <!-- Puedes duplicar y modificar más tarjetas -->
       </div>
-    </nav>
-<!--FIN DE NAVEGACIÓN-->
+    </section>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="fixed-footer">
+  © 2025. Todos los derechos reservados.
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
