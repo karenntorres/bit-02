@@ -1,116 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> <!--FONT AWESOME LINK CDN-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous"> <!--CDN BOOTSTRAP-->
- 
-    <title>BIT-02</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BIT-02</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
+
 <body>
-    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
-    <nav class="navbar">
-        <div class="navbar-left">
-            <i class="fa-solid fa-list"></i>
-        </div>
-        <div class="navbar-center">
-          <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
-          </div>
-        <div class="navbar-right">
-          <i class="fas fa-shopping-cart"></i>
-          <i class="fas fa-user-circle"></i>
-        </div>
-      </nav>
-<!--FIN DE NAVEGACIÓN-->  
-<!--IMAGEN CENTRAL, MAIN PAGE-->  
-<main>
-  <div class="container">
-    <img src="assets/mainpic.jpg" alt="sala ideal" class="hero-image">
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="navbar-left">
+      <i class="fa-solid fa-list"></i>
+    </div>
+    <div class="navbar-center">
+      <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
+    </div>
+    <div class="navbar-right">
+      <i class="fas fa-shopping-cart"></i>
+      <i class="fas fa-user-circle"></i>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <main class="container">
+    <img src="assets/mainpic.jpg" alt="sala ideal" class="hero-image" />
     <div class="hero-text">
       <h1>Muebles que se adaptan a ti</h1>
       <p>Diseños modernos y funcionales para todos los gustos. Renueva tu espacio con estilo y confort.</p>
       <a href="collection.html" class="cta-button" target="_blank">Ver colección</a>
-  </div>
-</main>
-<!--BANNER INFO-->
-<div class="info-banner">
-  <div class="info-item">ENVÍOS A TODO COLOMBIA</div>
-  <div class="info-item">GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS</div>
-  <div class="info-item">PRODUCTOS 100% NACIONALES</div>
-</div>
-
-<!--MENU HIGHLIGHT-->
-<div class="titulo-con-lineas">
-  <span class="linea"></span>
-  <span class="titulo-texto">EXPLORA NUESTRAS OPCIONES</span>
-  <span class="linea"></span>
-</div>
-<section class="hero-banners">
-  <div class="hero-column">
-    <img src="assets/salaexteriorportada.jpg" alt="sala-exterior">
-    <div class="hero-overlay">
-      <h2>SALA EXTERIOR</h2>
-      <a href="#" class="button-mn">COMPRA AHORA</a>
     </div>
+  </main>
+
+  <!-- INFO BANNER -->
+  <div class="info-banner">
+    <div class="info-item">ENVÍOS A TODO COLOMBIA</div>
+    <div class="info-item">GARANTÍA DE DEVOLUCIÓN DE 30 DÍAS</div>
+    <div class="info-item">PRODUCTOS 100% NACIONALES</div>
   </div>
-  <div class="hero-column">
-    <img src="assets/comedorjardin.jpg" alt="comedor-exterior">
-    <div class="hero-overlay">
-      <h2>COMEDOR EXTERIOR</h2>
-      <a href="#" class="button">COMPRA AHORA</a>
+
+  <!-- MENU DESTACADO -->
+  <div class="titulo-con-lineas">
+    <span class="linea"></span>
+    <span class="titulo-texto">EXPLORA NUESTRAS OPCIONES</span>
+    <span class="linea"></span>
+  </div>
+
+  <section class="hero-banners">
+    <div class="hero-column">
+      <img src="assets/salaexteriorportada.jpg" alt="Sala exterior" />
+      <div class="hero-overlay">
+        <h2>SALA EXTERIOR</h2>
+        <a href="#" class="button-mn">COMPRA AHORA</a>
+      </div>
     </div>
-  </div>
-</section>
-<!--FIN DE MAIN PAGE-->
+    <div class="hero-column">
+      <img src="assets/comedorjardin.jpg" alt="Comedor exterior" />
+      <div class="hero-overlay">
+        <h2>COMEDOR EXTERIOR</h2>
+        <a href="#" class="button">COMPRA AHORA</a>
+      </div>
+    </div>
+  </section>
 
-<!-- HEADER BLOG -->
-<header class="bg-dark text-white py-2 text-center">
-  <h1>BLOG DE MUEBLES Y DECORACIÓN</h1>
-</header>
-
-<!-- Main content -->
-<main class="container my-1">
-  <div class="row">
-    <!-- Blog Posts -->
-    <div class="col-md-8">
-      <!-- Post 1 -->
-      <div class="card mb-1 shadow">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="card-img-top" alt="Oficina moderna bien decorada">
-        <div class="card-body">
-          <h2 class="card-title">Oficina en casa para teletrabajar</h2>
-          <p class="card-text">
-            Cómo preparar mi oficina para teletrabajar: creando un espacio de trabajo productivo y estilizado en casa. </p>
-<p>En la era del teletrabajo, disponer de un espacio adecuado en casa que fomente tanto la productividad como el bienestar personal es más importante que nunca. Diseñar una oficina en casa no solo implica seleccionar un escritorio y una silla cómoda; se trata de crear un ambiente que inspire y motive todos los días. A continuación, te damos algunas claves sobre cómo preparar tu oficina para teletrabajar, asegurándote de que sea un lugar donde realmente quieras pasar tu jornada laboral.</p>
-<p>Ubicación estratégica: El primer paso para establecer una oficina en casa es elegir el lugar adecuado. Si es posible, selecciona un espacio que esté algo separado de las áreas de alta actividad para minimizar las distracciones. Idealmente, debería ser un área que reciba luz natural, lo que no solo ahorra energía, sino que también ha demostrado mejorar el estado de ánimo y la concentración. La presencia de una ventana con vistas agradables puede también aumentar significativamente tu productividad y reducir el estrés.</p>
-        </div>
-        <div class="card-footer text-muted">
-          Publicado el 8 mayo 2025 por Karenn Torres
+  <!-- BLOG -->
+  <header class="bg-dark text-white py-4 text-center">
+    <h1>BLOG DE MUEBLES Y DECORACIÓN</h1>
+  </header>
+  
+  <main class="container my-4">
+    <div class="row">
+      <div class="col-md-8 mx-auto">
+        <div class="card mb-4 shadow-sm">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="card-img-top" alt="Oficina moderna bien decorada">
+          
+          <div class="card-body">
+            <h2 class="card-title">Oficina en casa para teletrabajar</h2>
+            <p class="card-text">
+              Cómo preparar tu espacio ideal para trabajar desde casa. Te damos claves para mejorar productividad y estilo.
+            </p>
+            <p>
+              En la era del teletrabajo, disponer de un espacio adecuado es más importante que nunca. La elección del lugar, la iluminación natural, la ergonomía y el diseño juegan un papel clave para crear un ambiente que te inspire y motive todos los días.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-
-    <!-- Sidebar -->
-    <div class="col-md-4">
-      <div class="p-4 mb-3 bg-light rounded shadow-sm">
-        <h4>Sobre mí</h4>
-        <p>Soy una apasionada de la tecnología y la escritura. En este blog comparto ideas y conocimientos.</p>
-      </div>
-    </div>
-  </div>
-</main>
+  </main>
 
 
-<!--FOOTER-->
+ <!-- FOOTER -->
 <footer class="fixed-footer">
-  <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+  © 2025. Todos los derechos reservados.
 </footer>
- 
- 
- 
- 
-<noscript>JavaScript is mandatory </noscript>
-<script src="js/script.js"></script>
+
+  <noscript>JavaScript es obligatorio para el correcto funcionamiento del sitio.</noscript>
+  <script src="js/script.js"></script>
+
 </body>
 </html>
