@@ -43,7 +43,10 @@ Karenn Torres
 
 ## 🌐 Enlaces de entrega
 
-- 🔗 GitHub Pages: [URL a tu sitio publicado]
-- 🔗 Repositorio GitHub: [URL a tu repositorio]
+- 🔗 GitHub Pages:(https://karenntorres.github.io/bit-1/)
+- 🔗 Repositorio GitHub:(https://github.com/karenntorres/bit-1)
 
 ---
+📄 Licencia
+
+Este proyecto está licenciado solo para uso educativo y de portafolio.
