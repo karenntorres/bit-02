@@ -14,8 +14,8 @@ Karenn Torres
 
 ## 🖼️ Wireframe
 
-IMAGEN DE FIGMA AÑADIDA
----
+![FIGMA](assets/figma.png)
+
 
 ## 🧩 Tecnologías utilizadas
 
@@ -43,5 +43,7 @@ IMAGEN DE FIGMA AÑADIDA
 
 ## 🌐 Enlaces de entrega
 
-ENTREGADO A TRAVÉS DE DISCORD.
+- 🔗 GitHub Pages: [URL a tu sitio publicado]
+- 🔗 Repositorio GitHub: [URL a tu repositorio]
+
 ---
