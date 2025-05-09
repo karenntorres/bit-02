@@ -7,22 +7,38 @@
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  
 </head>
 
 <body>
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="navbar-left">
-      <i class="fa-solid fa-list"></i>
-    </div>
-    <div class="navbar-center">
-      <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
-    </div>
-    <div class="navbar-right">
-      <i class="fas fa-shopping-cart"></i>
-      <i class="fas fa-user-circle"></i>
-    </div>
-  </nav>
+<!-- NAVBAR -->
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="navbar-left">
+    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <div class="navbar-center">
+    <span>OBTÉN 10% DE DESCUENTO EN TU PRIMERA COMPRA</span>
+  </div>
+
+  <div class="navbar-right">
+    <i class="fas fa-shopping-cart"></i>
+    <i class="fas fa-user-circle"></i>
+  </div>
+
+  <!-- Menú desplegable para móviles -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </div>
+</nav>
+
+  
 
   <!-- HERO SECTION -->
   <main class="container">
@@ -70,34 +86,43 @@
     <h1>BLOG DE MUEBLES Y DECORACIÓN</h1>
   </header>
   
-  <main class="container my-4">
-    <div class="row">
-      <div class="col-md-8 mx-auto">
-        <div class="card mb-4 shadow-sm">
-          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="card-img-top" alt="Oficina moderna bien decorada">
-          
-          <div class="card-body">
-            <h2 class="card-title">Oficina en casa para teletrabajar</h2>
-            <p class="card-text">
-              Cómo preparar tu espacio ideal para trabajar desde casa. Te damos claves para mejorar productividad y estilo.
-            </p>
-            <p>
-              En la era del teletrabajo, disponer de un espacio adecuado es más importante que nunca. La elección del lugar, la iluminación natural, la ergonomía y el diseño juegan un papel clave para crear un ambiente que te inspire y motive todos los días.
-            </p>
-          </div>
-        </div>
+  <div class="card-ward">
+    <article class="card">
+      <header class="header-card">
+        <img src="https://i.pinimg.com/736x/56/0c/25/560c25ce214b0060777f845cea2443b9.jpg" class="card-img-top" alt="Oficina moderna bien decorada">
+      </header>
+      <div class="card-body">
+        <h2 class="card-title">Oficina en casa para teletrabajar</h2>
+        <p class="card-text">
+          ¿Cómo preparar tu espacio ideal para trabajar desde casa? Te damos claves para mejorar productividad y estilo.
+        </p>
+        <p>
+          En la era del teletrabajo, disponer de un espacio adecuado es más importante que nunca. La elección del lugar, la iluminación natural, la ergonomía y el diseño juegan un papel clave para crear un ambiente que te inspire y motive todos los días.
+        </p>
+        <p>
+          Empieza por seleccionar un rincón tranquilo, preferentemente cerca de una ventana. Una buena silla ergonómica y un escritorio funcional son inversiones esenciales. Añade estanterías o muebles organizadores para mantener el orden, y complementa con detalles decorativos que reflejen tu estilo, como cuadros, plantas o lámparas de diseño.
+        </p>
+        <p>
+          No subestimes el poder del color: tonos neutros con acentos en madera o metal pueden aportar calidez y modernidad a tu espacio. Recuerda, un entorno armónico no solo mejora tu concentración, sino que también influye positivamente en tu bienestar.
+        </p>
+        <p>
+          Descubre nuestra colección de muebles para oficina en casa y transforma tu espacio en un lugar donde trabajar se sienta bien.
+        </p>
       </div>
-    </div>
-  </main>
-
-
- <!-- FOOTER -->
-<footer class="fixed-footer">
-  © 2025. Todos los derechos reservados.
-</footer>
+    </article>
+  </div>
+  
+  <!-- FOOTER -->
+  <footer class="fixed-footer">
+    © 2025. Todos los derechos reservados.
+  </footer>
+  
 
   <noscript>JavaScript es obligatorio para el correcto funcionamiento del sitio.</noscript>
   <script src="js/script.js"></script>
+  
 
 </body>
 </html>
+
+
